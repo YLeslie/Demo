@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/search"
+        android:title="search"
+        app:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@mipmap/notify"
+        android:title="notification"
+        app:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/search02"
+        android:icon="@mipmap/search"
+        android:title="search02"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_1"
+        android:icon="@mipmap/notify"
+        android:title="item_01"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/menu_2"
+        android:icon="@mipmap/search"
+        android:title="item_02"
+        app:showAsAction="withText"/>
+</menu>
